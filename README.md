@@ -1,8 +1,12 @@
-# CompetenceDAO — SAGE
+# A SSI-based Governance Model for Decentralized Autonomous Organizations
 
-**Una DAO di investimento su Ethereum in cui il potere di voto dipende sia dal capitale depositato sia dalle competenze certificate, valutate in base all'argomento della proposta.**
+**Un modello di governance decentralizzata su Ethereum in cui il potere di voto dei membri dipende sia dal capitale investito sia dalle competenze certificate, valutate in base all'argomento della proposta.**
 
-Il repository contiene il prototipo **CompetenceDAO**, sviluppato per la tesi magistrale *A SSI-based Governance Model for Decentralized Autonomous Organizations*. Il progetto implementa **SAGE** (*Self-sovereign Attestations for Governance with Expertise*), un modello di governance che integra **Self-Sovereign Identity (SSI)**, **Verifiable Credentials (VC)** e smart contract Ethereum.
+Il progetto, sviluppato nell'ambito della tesi magistrale in Computer Science presso l'Università di Pisa, propone e implementa un sistema di governance per le **Decentralized Autonomous Organizations (DAO)** che supera i limiti dei tradizionali meccanismi di voto basati esclusivamente sul possesso di token.
+
+La soluzione combina due componenti del potere di voto: lo **stake**, che rappresenta il contributo economico del membro, e le **competenze**, certificate tramite **Verifiable Credentials (VC)** secondo il modello **Self-Sovereign Identity (SSI)**. Le competenze vengono verificate direttamente dagli smart contract Ethereum e contribuiscono al voto in misura diversa a seconda dell'argomento della proposta.
+
+Il repository contiene l'implementazione di un **prototipo completo di DAO di investimento**, sviluppato con Solidity, OpenZeppelin, Hardhat e Veramo, insieme ai test funzionali, alle analisi sperimentali sui costi del gas, alle ottimizzazioni dello storage e all'analisi di sicurezza.
 
 
 ## Indice
